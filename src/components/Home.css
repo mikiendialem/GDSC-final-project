@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+.Home{
+    width: 100%;
+    height: 50vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Home .btn{
+    display: flex;
+    gap: 0;
+}
+.Home h1{
+    font-size: 3rem;
+    color: #2e2e2e;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-family: 'Pacifico', cursive;
+}
+.Home .btn input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 2px rgb(160, 159, 159);
+    padding: 0 2rem;
+    font-size: 1rem;
+    color: #2e2e2e;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.Home .btn button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #2e2e2e;
+    margin-bottom: 2rem;
+}
+.Home button:hover{
+    background-color: #2e2e2e;
+    color: #fff;
+}
+.Home ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 50px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.Home .ul ul li{
+    background-color: #2e2e2e;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.Home ul li span{
+    color: #fff;
+    padding-left: 25px;
+}
+.Home ul li:hover{
+    color: #fff;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
